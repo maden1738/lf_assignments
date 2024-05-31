@@ -24,11 +24,14 @@ ul {
 .sidebar {
      width: 32%;
      background-color: var(--darkbg);
-     min-height: 100vh;
 }
 
 main {
      width: 68%;
+}
+
+#close-quote {
+     margin-left: 4px;
 }
 
 .sidebar section {
@@ -37,6 +40,10 @@ main {
      gap: 24px;
      margin-left: 13%;
      margin-right: 13%;
+}
+
+.quotes img {
+     margin-right: 4px;
 }
 
 .socials {
@@ -592,5 +599,13 @@ main {
 
      .timeline > section {
           padding-left: 35px;
+     }
+
+     .sidebar section {
+          column-gap: 6px;
+     }
+
+     .flex-container {
+          gap: 0.5rem;
      }
 }
