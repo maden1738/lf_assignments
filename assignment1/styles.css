@@ -528,7 +528,6 @@ main {
      .sidebar .socials {
           flex-direction: row;
           flex-wrap: wrap;
-          justify-content: starts;
      }
 
      .languages .content {
